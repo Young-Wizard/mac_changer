@@ -35,6 +35,7 @@ def get_current_mac(interface):
 
 
 options = get_argument()
+
 current_mac = get_current_mac(options.interface)
 print("Current MAC = " + str(current_mac))
 
